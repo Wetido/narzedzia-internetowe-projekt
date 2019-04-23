@@ -1,0 +1,183 @@
+#element {
+    margin:0;
+    padding:0;
+    font-size:100%;
+}
+
+
+
+body {
+    background-image: url(../../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main {
+
+    width: 72%;
+    height: 10000px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    margin-bottom: 2rem;
+
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+
+    border-radius: 4px;
+}
+
+
+
+
+#opis img {
+
+    border-radius: 4px;
+    width: 100%;
+    max-height: 550px;
+}
+
+
+    #opis > header {
+
+        text-align: center;
+        background: rgba(255, 255, 255, 1);
+        padding: 2rem;
+        margin: 0;
+    }
+
+    #opis > header h2 {
+        position: relative;
+        padding-bottom: .75rem;
+    }
+
+    #opis > header h2:after {
+        content: '';
+        position: absolute;
+        margin: auto;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 10%;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.125);
+    }
+
+    #opis > header p {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: .8rem;
+        letter-spacing: .25rem;
+        margin: 0;
+    }
+
+    #opis > header.tytul {
+        padding: 4rem 2rem;
+    }
+
+    #opis > article {
+
+        text-align: justify;
+        padding: 2rem;
+    }
+
+
+
+
+#zdjecia {
+
+    width: 100%;
+
+    padding: 20px;
+    background-color: rgba(0 , 0 , 0 , 0.8);
+}
+
+
+    .galeria{
+
+        width: 96%;
+        padding-bottom: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+        .zdjecie img{
+
+
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .zdjecie{
+
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+    #zdjecia > div {
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(0, 0 , 0 , 0.95);
+     }
+
+        #zdjecia > div >  header {
+
+            background-color: rgba(0, 0 , 0 , 0.95);
+            color: rgba( 255, 255, 255, 1);
+            text-align: center;
+            padding: 2rem;
+            margin: 0;
+        }
+
+        #zdjecia > div > header h2 {
+            position: relative;
+            padding-bottom: .75rem;
+        }
+
+        #zdjecia > div > header h2:after {
+            content: '';
+            position: absolute;
+            margin: auto;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 10%;
+            height: 1px;
+            background-color: rgba( 255, 255, 255, 0.6);
+        }
+
+        #zdjecia > div > header p {
+            text-transform: uppercase;
+            color: rgba( 255, 255, 255, 0.6);
+            font-weight: 300;
+            font-size: .8rem;
+            letter-spacing: .25rem;
+            margin: 0;
+        }
+
+        #zdjecia > div > header.tytul {
+            padding: 4rem 2rem;
+        }
+
+
+
