@@ -22,7 +22,6 @@ body {
 main {
 
     width: 72%;
-    height: 10000px;
     margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
@@ -98,7 +97,6 @@ main {
 #zdjecia {
 
     width: 100%;
-
     padding: 50px;
     background-color: rgba(0 , 0 , 0 , 0.75);
 }
@@ -127,7 +125,7 @@ main {
         }
 
 
-    #zdjecia > div {
+    #zdjecia > section {
 
         margin-top: 20px;
         margin-bottom: 20px;
@@ -135,21 +133,21 @@ main {
         margin-left: auto;
         margin-right: auto;
         box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
-     }
+        }
 
-        #zdjecia > div >  header {
+        #zdjecia > section >  header {
 
             background-color: rgba(0, 0 , 0 , 0.85);
             color: rgba( 255, 255, 255, 1);
             text-align: center;
         }
 
-        #zdjecia > div > header h2 {
+        #zdjecia > section > header h2 {
             position: relative;
             padding-bottom: .75rem;
         }
 
-        #zdjecia > div > header h2:after {
+        #zdjecia > section > header h2:after {
             content: '';
             position: absolute;
             margin: auto;
@@ -161,7 +159,7 @@ main {
             background-color: rgba( 255, 255, 255, 0.6);
         }
 
-        #zdjecia > div > header p {
+        #zdjecia > section > header p {
             text-transform: uppercase;
             color: rgba( 255, 255, 255, 0.6);
             font-weight: 300;
@@ -170,9 +168,98 @@ main {
             margin: 0;
         }
 
-        #zdjecia > div > header.tytul {
+        #zdjecia > section > header > p > a {
+
+            text-decoration: none;
+        }
+
+        #zdjecia > section > header.tytul {
             padding: 2.2rem 1.5rem;
         }
 
 
+
+#info {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    }
+
+    .infomacje {
+
+        padding: 0;
+        margin: 0;
+
+        box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+
+    }
+
+    .infomacje > img {
+
+        height: 100%;
+        width: 100%;
+
+    }
+
+#o-mnie {
+
+        background-color: rgba( 255,255 , 255 , 0.9);
+    }
+
+    #o-mnie > div {
+
+        padding: 4rem;
+        text-align: left;
+    }
+
+    #o-mnie > div > h2 {
+
+        color: black;
+        font-size: 2.5rem;
+    }
+
+    #o-mnie > div > p {
+
+        text-align: justify;
+        text-decoration: none;
+        margin-top: 20px;
+        color: rgba(0 , 0 , 0 , 0.8);
+    }
+
+#kontakt {
+
+    background-color: rgba( 0, 0 , 0 , 0.9);
+}
+
+    #kontakt > div {
+
+        padding: 4rem;
+        text-align: right;
+    }
+
+    #kontakt > div > h2 {
+
+        color: black;
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    #kontakt > div > p {
+
+        text-align: justify;
+        text-decoration: none;
+        margin-top: 20px;
+        color: rgba(255 , 255 , 255 , 1);
+    }
+
+
+
+footer > div {
+
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 30px;
+}
 
