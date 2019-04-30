@@ -1,0 +1,100 @@
+main {
+
+    width: 72%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 2rem;
+
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+
+    border-radius: 5px;
+}
+
+body {
+    background-image: url(../../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+#galeria > section {
+
+
+    border-radius: 5px;
+    height: 700px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+}
+
+#galeria > section >  header {
+
+    border-radius: 5px;
+    background-color: rgba(0, 0 , 0 , 0.85);
+    color: rgba( 255, 255, 255, 1);
+    text-align: center;
+}
+
+#galeria > section > header h2 {
+    position: relative;
+    padding-bottom: .75rem;
+}
+
+#galeria > section > header h2:after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    height: 1px;
+    background-color: rgba( 255, 255, 255, 0.6);
+}
+
+#galeria > section > header p {
+    text-transform: uppercase;
+    color: rgba( 255, 255, 255, 0.6);
+    font-weight: 300;
+    font-size: .8rem;
+    letter-spacing: .25rem;
+}
+
+#galeria > section > header > p > a {
+
+    text-decoration: none;
+}
+
+#galeria > section > header {
+
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.kontener{
+
+    height: 400px;
+    width: 500px;
+
+
+}
+
+.kontener img {
+
+    width: 100%;
+    height: 100%;
+}
+
+
