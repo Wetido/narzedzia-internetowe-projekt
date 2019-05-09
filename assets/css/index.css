@@ -39,7 +39,7 @@ main {
 
 #main-photo{
 
-    height: 550px;
+    height: 500px;
 }
 
 #opis img {
@@ -54,8 +54,7 @@ main {
 
         text-align: center;
         background: rgba(255, 255, 255, 1);
-        padding: 2rem;
-        margin: 0;
+
     }
 
     #opis > header h2 {
@@ -84,13 +83,14 @@ main {
     }
 
     #opis > header {
-        padding: 4rem 2rem;
+        padding: 4.5rem;
     }
 
     #opis > article {
 
         text-align: justify;
-        padding: 2rem;
+        padding: 5rem;
+        color: rgba(0,0,0,0.8);
     }
 
 
@@ -98,8 +98,8 @@ main {
 #zdjecia {
 
 
-    padding: 50px;
-    background-color: rgba(0 , 0 , 0 , 0.75);
+    padding: 80px;
+    background-color: rgba(0 , 0 , 0 , 0.7);
 }
 
 
@@ -142,7 +142,7 @@ main {
 
         #zdjecia > section >  header {
 
-            background-color: rgba(0, 0 , 0 , 0.85);
+            background-color: rgba(0, 0 , 0 , 0.65);
             color: rgba( 255, 255, 255, 1);
             text-align: center;
         }
