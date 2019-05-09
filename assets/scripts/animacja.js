@@ -18,7 +18,7 @@ sr.reveal('#przesuwanie-kontakt', {
     origin: 'right'
 });
 
-sr.reveal('.zdjecie', {
+sr.reveal('.img', {
     reset: true,
     delay: 300,
     distance: 0,
