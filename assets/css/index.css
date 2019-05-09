@@ -37,14 +37,16 @@ main {
     border-radius: 4px;
 }
 
+#main-photo{
 
-
+    height: 550px;
+}
 
 #opis img {
 
     border-radius: 4px;
     width: 100%;
-    max-height: 550px;
+    height: 100%;
 }
 
 
@@ -69,8 +71,8 @@ main {
         bottom: 0;
         left: 0;
         width: 10%;
-        height: 1px;
-        background-color: rgba(0, 0, 0, 0.125);
+        height: 2px;
+        background-color: rgba(0, 0, 0, 0.15);
     }
 
     #opis > header p {
@@ -81,7 +83,7 @@ main {
         margin: 0;
     }
 
-    #opis > header.tytul {
+    #opis > header {
         padding: 4rem 2rem;
     }
 
@@ -176,7 +178,7 @@ main {
             text-decoration: none;
         }
 
-        #zdjecia > section > header.tytul {
+        #zdjecia > section > header {
             padding: 2.2rem 1.5rem;
         }
 

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
 
     <title>Schody</title>
 
@@ -20,11 +21,11 @@
 
     <section id="opis">
 
-        <div>
+        <div id = "main-photo">
             <img src="img/zdj1.jpg" alt=""/>
         </div>
 
-        <header class="tytul">
+        <header>
             <h2>Lorem ipsum dolor sit amet</h2>
             <p>consectetur adipiscing elit</p>
         </header>
@@ -51,17 +52,19 @@
 
         <section>
 
-            <header class="tytul">
+            <header>
                 <h2>Zdjęcia</h2>
-                <p><a href="galeria.html">Wiecej zdjęć</a></p>
+
             </header>
 
 
             <article class="galeria">
-                <div class="col-12 col-md-6 zdjecie"><img src="img/s1.jpg" alt="#"></div>
-                <div class="col-12 col-md-6 zdjecie"><img src="img/s2.jpg" alt="#"></div>
-                <div class="col-12 col-md-6 zdjecie"><img src="img/s3.jpg" alt="#"></div>
-                <div class="col-12 col-md-6 zdjecie"><img src="img/s4.jpg" alt="#"></div>
+                <div class="col-12 col-md-6 zdjecie"> <a href="img/s1.jpg" data-lightbox="image-1"> <img src="img/s1.jpg" alt="#"> </a> </div>
+                <div class="col-12 col-md-6 zdjecie"> <a href="img/s2.jpg" data-lightbox="image-1"> <img src="img/s2.jpg" alt="#"> </a> </div>
+                <div class="col-12 col-md-6 zdjecie"> <a href="img/s3.jpg" data-lightbox="image-1"> <img src="img/s3.jpg" alt="#"> </a> </div>
+                <div class="col-12 col-md-6 zdjecie"> <a href="img/s4.jpg" data-lightbox="image-1"> <img src="img/s4.jpg" alt="#"> </a> </div>
+                <a href="img/i1.jpg" data-lightbox="image-1"></a>
+                <a href="img/i2.jpg" data-lightbox="image-1"></a>
             </article>
 
         </section>
@@ -124,6 +127,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+<script src="assets/scripts/lightbox-plus-jquery.js"></script>
+
 
 </body>
 
