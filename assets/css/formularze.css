@@ -1,108 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
 main {
 
-    width: 72%;
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-bottom: 2rem;
-
-    background: rgba(255, 255, 255, 0.8);
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
-
-    border-radius: 5px;
+    padding: 1px;
 }
 
 body {
-    background-image: url(../../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
 
-    top: 0;
-    left: 0;
-    height: 100%;
+}
+
+.kontener{
+    max-width: 400px;
+
+    margin: 0 auto;
+
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#kontakt {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#kontakt h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#kontakt h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
     width: 100%;
 }
 
-
-#galeria > section {
-
-
-    border-radius: 5px;
-
-
-    height: 800px;
-
-
-    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+#kontakt input[type="text"],
+#kontakt input[type="email"],
+#kontakt input[type="tel"],
+#kontakt input[type="url"],
+#kontakt textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
 }
 
-#galeria > section >  header {
+#kontakt input[type="text"]:hover,
+#kontakt input[type="email"]:hover,
+#kontakt input[type="tel"]:hover,
+#kontakt input[type="url"]:hover,
+#kontakt textarea:hover {
 
-    border-radius: 5px;
-    background-color: rgba(0, 0 , 0 , 0.85);
-    color: rgba( 255, 255, 255, 1);
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#kontakt textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#kontakt button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#kontakt button[type="submit"]:hover {
+
+    background: linear-gradient( 45deg, #43A047 , #54B158);
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+#kontakt button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+#kontakt input:focus,
+#kontakt textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+footer {
+
     text-align: center;
 }
-
-#galeria > section > header h2 {
-    position: relative;
-    padding-bottom: .75rem;
-}
-
-#galeria > section > header h2:after {
-    content: '';
-    position: absolute;
-    margin: auto;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 10%;
-    height: 1px;
-    background-color: rgba( 255, 255, 255, 0.6);
-}
-
-#galeria > section > header p {
-    text-transform: uppercase;
-    color: rgba( 255, 255, 255, 0.6);
-    font-weight: 300;
-    font-size: .8rem;
-    letter-spacing: .25rem;
-}
-
-#galeria > section > header > p > a {
-
-    text-decoration: none;
-}
-
-#galeria > section > header {
-
-    padding: 2rem;
-    padding-bottom: 1rem;
-}
-
-
-
-.kontener{
-
-    width: 70%;
-    height: 60%;
-    margin: 70px auto;
-}
-
-
-
-
-footer > div {
-
-    color: rgba(255, 255, 255, 0.75);
-    text-align: center;
-    padding: 2rem;
-    margin-bottom: 30px;
-}
-
-

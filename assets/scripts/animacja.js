@@ -20,9 +20,9 @@ sr.reveal('#przesuwanie-kontakt', {
 
 sr.reveal('.img', {
     reset: true,
-    delay: 300,
+    delay: 0,
     distance: 0,
-    duration: 1200,
+    duration: 600,
     distance: '50px',
     origin: 'top'
 });
