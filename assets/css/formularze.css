@@ -6,7 +6,7 @@ main {
 }
 
 body {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, sans-serif; !important;
     font-weight: 100;
     font-size: 12px;
     line-height: 30px;
@@ -14,27 +14,19 @@ body {
 
 }
 
-.kontener{
-    max-width: 400px;
+.kontener {
 
-    margin: 0 auto;
+    max-width: 450px;
+    margin: auto;
 
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
-}
 
 #kontakt {
     background: #F9F9F9;
     padding: 25px;
-    margin: 150px 0;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin: 100px 0;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
 }
 
 #kontakt h3 {
@@ -52,18 +44,14 @@ body {
 }
 
 fieldset {
-    border: medium none !important;
-    margin: 0 0 10px;
-    min-width: 100%;
-    padding: 0;
-    width: 100%;
-}
+     margin: 0 0 10px;
+     min-width: 100%;
 
-#kontakt input[type="text"],
-#kontakt input[type="email"],
-#kontakt input[type="tel"],
-#kontakt input[type="url"],
-#kontakt textarea {
+ }
+
+
+#kontakt textarea,
+#kontakt input{
     width: 100%;
     border: 1px solid #ccc;
     background: #FFF;
@@ -71,17 +59,16 @@ fieldset {
     padding: 10px;
 }
 
-#kontakt input[type="text"]:hover,
-#kontakt input[type="email"]:hover,
-#kontakt input[type="tel"]:hover,
-#kontakt input[type="url"]:hover,
-#kontakt textarea:hover {
+
+#kontakt input:hover,
+#kontakt textarea:hover{
 
     transition: border-color 0.3s ease-in-out;
-    border: 1px solid #aaa;
+    border: 1.5px solid #aaa;
 }
 
 #kontakt textarea {
+    margin-top: 10px;
     height: 100px;
     max-width: 100%;
     resize: none;
@@ -102,22 +89,6 @@ fieldset {
 
     background: linear-gradient( 45deg, #43A047 , #54B158);
 
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.7s ease-in-out;
 }
 
-#kontakt button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-
-
-#kontakt input:focus,
-#kontakt textarea:focus {
-    outline: 0;
-    border: 1px solid #aaa;
-}
-
-footer {
-
-    text-align: center;
-}

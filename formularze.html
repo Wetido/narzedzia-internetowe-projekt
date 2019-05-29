@@ -18,25 +18,93 @@
 <main data-parallax="scroll" data-image-src="img/background.jpg">
 
     <section class="kontener">
-        <form id="kontakt" action="" method="post">
-            <h3>Colorlib Contact Form</h3>
-            <h4>Contact us for custom quote</h4>
+        <form id="kontakt" method="post">
+
+            <h3>Formularz kontakowy</h3>
+            <h4>Skontaktuj się z nami wypełniając poniższe rubryki</h4>
+
             <fieldset>
-                <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+
+                <input id="imie" class="form-control" placeholder="Imie" type="text" required onblur="sprawdz('imie', nazwa)" autofocus pattern="[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}">
+                <div class="valid-feedback"> Dobrze! </div>
+                <div class="invalid-feedback"> Wprowadz poprawne imie </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <input id="nazwisko" class="form-control" placeholder="Nazwisko" type="text" onblur="sprawdz('nazwisko', nazwa)" required  pattern="[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,15}">
+                <div class="valid-feedback"> Dobrze! </div>
+                <div class="invalid-feedback"> Wprowadz poprawne nazwisko </div>
+
+            </fieldset>
+
+            <fieldset>
+
+                <input id="mail" class="form-control" placeholder="Podaj adres e-mail" onblur="sprawdz('mail',email)" type="email" required>
+                <div class="valid-feedback"> Dobrze! </div>
+                <div class="invalid-feedback"> Wprowadz poprawny adres e-mail </div>
+
             </fieldset>
             <fieldset>
-                <input placeholder="Your Email Address" type="email" tabindex="2" required>
+
+                <input id="tel" class="form-control" placeholder="Podaj nr. telefonu" onblur="sprawdz('tel', telefon)" required>
+                <div class="valid-feedback"> Dobrze! </div>
+                <div class="invalid-feedback"> Wprowadz poprawny numer telefonu </div>
+
             </fieldset>
+
             <fieldset>
-                <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+
+                <input id="miasto" class="form-control" placeholder="Miejsce zamieszkania" type="text" onblur="sprawdz('miasto', miejsce)" pattern="[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}" required>
+                <div class="valid-feedback"> Dobrze! </div>
+                <div class="invalid-feedback"> Wprowadz poprawne miejsce zamieszania </div>
+
             </fieldset>
+
             <fieldset>
-                <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+
+                <input id="kod" class="form-control" placeholder="Kod pocztowy" type="text" onblur="sprawdz('kod', kod_pocztowy)" pattern="[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}" required>
+                <div class="valid-feedback"> Dobrze! </div>
+                <div class="invalid-feedback"> Wprowadz poprawny adres (xx-xxx) </div>
+
             </fieldset>
+
             <fieldset>
-                <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+
+                <select id="wojewodztwo" class="form-control" onblur="sprawdzSelect()">
+                    <option>Wybierz województwo</option>
+                    <option>dolnośląskie</option>
+                    <option>kujawsko-pomorskie</option>
+                    <option>lubelskie</option>
+                    <option>lubuskie</option>
+                    <option>łódzkie</option>
+                    <option>małopolskie</option>
+                    <option>mazowieckie</option>
+                    <option>opolskie</option>
+                    <option>podkarpackie</option>
+                    <option>podlaskie</option>
+                    <option>pomorskie</option>
+                    <option>śląskie</option>
+                    <option>świętokrzyskie</option>
+                    <option>warmińsko-mazurskie</option>
+                    <option>wielkopolskie</option>
+                    <option>zachodniopomorskie</option>
+                </select>
+                <div class="valid-feedback"> Dobrze! </div>
+                <div class="invalid-feedback"> Wybierz województwo </div>
+
             </fieldset>
-            
+
+            <fieldset>
+
+                <textarea placeholder="Wiadomosc dodatkowa.... (opcjonalne)"  ></textarea>
+                <div class="valid-feedback"> Dobrze! </div>
+                <div class="invalid-feedback"> Wprowadz prawdziwe imie </div>
+
+            </fieldset>
+
+
             <fieldset>
 
                 <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
@@ -49,6 +117,7 @@
 
         </form>
     </section>
+
 </main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -56,6 +125,7 @@
         crossorigin="anonymous"></script>
 
 
+<script src="assets/scripts/formularze.js"></script>
 <script src="assets/scripts/parallax.js"></script>
 
 

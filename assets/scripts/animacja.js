@@ -1,37 +1,37 @@
 
 window.sr = ScrollReveal();
 sr.reveal('#przesuwanie-o-mnie', {
-    reset: true,
+
     delay: 200,
-    distance: 0,
     duration: 800,
     distance: '50px',
-    origin: 'left'
+    origin: 'left',
+    desktop: true,
 });
 
 sr.reveal('#przesuwanie-kontakt', {
-    reset: true,
+
     delay: 200,
-    distance: 0,
     duration: 800,
     distance: '50px',
-    origin: 'right'
+    origin: 'right',
+    desktop: true,
 });
 
 sr.reveal('.img', {
-    reset: true,
+
     delay: 0,
-    distance: 0,
     duration: 600,
     distance: '50px',
-    origin: 'top'
+    origin: 'top',
+    desktop: true,
 });
 
 sr.reveal('.content > p', {
-    reset: true,
+
     delay: 200,
-    distance: 0,
     duration: 800,
     distance: '50px',
-    origin: 'top'
+    origin: 'top',
+    desktop: true,
 });

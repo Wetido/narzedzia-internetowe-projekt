@@ -1,79 +1,47 @@
 
-(function ($) {
-    "use strict";
+nazwa = /^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}$/;
+telefon = /^[1-9]{1,1}[0-9]{2,10}$/;
+email = /^([\w\-]+)@([\w\-]+)((\.(\w){2,3})+)$/;
+miejsce = /^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ -]{3,30}$/;
+kod_pocztowy = /^[0-9]{2}-[0-9]{3}$/;
+
+function sprawdz(id, pattern) {
 
 
-    /*==================================================================
-    [ Validate after type ]*/
-    $('.validate-input .input100').each(function(){
-        $(this).on('blur', function(){
-            if(validate(this) == false){
-                showValidate(this);
-            }
-            else {
-                $(this).parent().addClass('true-validate');
-            }
-        })    
-    })
-  
-  
-    /*==================================================================
-    [ Validate ]*/
-    var input = $('.validate-input .input100');
+    var obiektPole = document.getElementById( id );
 
-    $('.validate-form').on('submit',function(){
-        var check = true;
+    if( pattern.test( obiektPole.value ) )
+    {
 
-        for(var i=0; i<input.length; i++) {
-            if(validate(input[i]) == false){
-                showValidate(input[i]);
-                check=false;
-            }
-        }
+        obiektPole.classList.add('is-valid');
+        obiektPole.classList.remove('is-invalid');
 
-        return check;
-    });
+    } else {
 
-
-    $('.validate-form .input100').each(function(){
-        $(this).focus(function(){
-           hideValidate(this);
-           $(this).parent().removeClass('true-validate');
-        });
-    });
-
-     function validate (input) {
-        if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
-            if($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
-                return false;
-            }
-        }
-        else {
-            if($(input).val().trim() == ''){
-                return false;
-            }
-        }
+        obiektPole.classList.remove('is-valid');
+        obiektPole.classList.add('is-invalid');
     }
+    return true;
 
-    function showValidate(input) {
-        var thisAlert = $(input).parent();
+}
 
-        $(thisAlert).addClass('alert-validate');
+function sprawdzSelect()
+{
+    var select = document.getElementById("wojewodztwo");
 
-        $(thisAlert).append('<span class="btn-hide-validate">&#xf136;</span>')
-        $('.btn-hide-validate').each(function(){
-            $(this).on('click',function(){
-               hideValidate(this);
-            });
-        });
+    var selectedValue = select.options[select.selectedIndex].value;
+
+    if (selectedValue == "Wybierz województwo")
+    {
+        select.classList.remove('is-valid');
+        select.classList.add('is-invalid');
+    } else {
+
+        select.classList.add('is-valid');
+        select.classList.remove('is-invalid');
     }
+}
 
-    function hideValidate(input) {
-        var thisAlert = $(input).parent();
-        $(thisAlert).removeClass('alert-validate');
-        $(thisAlert).find('.btn-hide-validate').remove();
-    }
-    
-    
 
-})(jQuery);
+
+
