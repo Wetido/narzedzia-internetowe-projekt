@@ -18,109 +18,123 @@
 <main data-parallax="scroll" data-image-src="img/background.jpg">
 
     <section class="kontener">
-        <form id="kontakt" method="post">
+        <div id="kontakt">
 
-            <h3>Formularz kontakowy</h3>
-            <h4>Skontaktuj się z nami wypełniając poniższe rubryki</h4>
+            <form method="post">
 
-            <fieldset>
+                <h3>Formularz kontakowy</h3>
+                <h4>Skontaktuj się z nami wypełniając poniższe rubryki</h4>
 
-                <input id="imie" class="form-control" placeholder="Imie" type="text" required onblur="sprawdz('imie', nazwa)" autofocus pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}$">
-                <div class="valid-feedback"> Dobrze! </div>
-                <div class="invalid-feedback"> Wprowadz poprawne imie </div>
+                <h4 id="back"><a href="index.html">Powrot</a></h4>
 
-            </fieldset>
+                <fieldset>
 
-            <fieldset>
+                    <input id="imie" class="form-control" placeholder="Imie" type="text" required
+                           onblur="sprawdz('imie', nazwa)" autofocus pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}$">
+                    <div class="valid-feedback"> Dobrze!</div>
+                    <div class="invalid-feedback"> Wprowadz poprawne imie</div>
 
-                <input id="nazwisko" class="form-control" placeholder="Nazwisko" type="text" onblur="sprawdz('nazwisko', nazwa)" required  pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}$">
-                <div class="valid-feedback"> Dobrze! </div>
-                <div class="invalid-feedback"> Wprowadz poprawne nazwisko </div>
+                </fieldset>
 
-            </fieldset>
+                <fieldset>
 
-            <fieldset>
+                    <input id="nazwisko" class="form-control" placeholder="Nazwisko" type="text"
+                           onblur="sprawdz('nazwisko', nazwa)" required pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}$">
+                    <div class="valid-feedback"> Dobrze!</div>
+                    <div class="invalid-feedback"> Wprowadz poprawne nazwisko</div>
 
-                <input id="mail" class="form-control" placeholder="Podaj adres e-mail" onblur="sprawdz('mail',email)" type="email" required>
-                <div class="valid-feedback"> Dobrze! </div>
-                <div class="invalid-feedback"> Wprowadz poprawny adres e-mail </div>
+                </fieldset>
 
-            </fieldset>
-            <fieldset>
+                <fieldset>
 
-                <input id="tel" class="form-control" placeholder="Podaj nr. telefonu" onblur="sprawdz('tel', telefon)" title="Numer powinien posiadać 9-10 cyfr" pattern="^[1-9]{1,1}[0-9]{2,10}$" required>
-                <div class="valid-feedback"> Dobrze! </div>
-                <div class="invalid-feedback"> Wprowadz poprawny numer telefonu </div>
+                    <input id="mail" class="form-control" placeholder="Podaj adres e-mail"
+                           onblur="sprawdz('mail',email)" type="email" required>
+                    <div class="valid-feedback"> Dobrze!</div>
+                    <div class="invalid-feedback"> Wprowadz poprawny adres e-mail</div>
 
-            </fieldset>
+                </fieldset>
+                <fieldset>
 
-            <fieldset>
+                    <input id="tel" class="form-control" placeholder="Podaj nr. telefonu"
+                           onblur="sprawdz('tel', telefon)" title="Numer powinien posiadać 9-10 cyfr"
+                           pattern="^[1-9]{1,1}[0-9]{2,10}$" required>
+                    <div class="valid-feedback"> Dobrze!</div>
+                    <div class="invalid-feedback"> Wprowadz poprawny numer telefonu</div>
 
-                <input id="miasto" class="form-control" placeholder="Miejsce zamieszkania" type="text" onblur="sprawdz('miasto', miejsce)" pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ -]{3,30}$" required>
-                <div class="valid-feedback"> Dobrze! </div>
-                <div class="invalid-feedback"> Wprowadz poprawne miejsce zamieszania </div>
+                </fieldset>
 
-            </fieldset>
+                <fieldset>
 
-            <fieldset>
+                    <input id="miasto" class="form-control" placeholder="Miejsce zamieszkania" type="text"
+                           onblur="sprawdz('miasto', miejsce)" pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ -]{3,30}$" required>
+                    <div class="valid-feedback"> Dobrze!</div>
+                    <div class="invalid-feedback"> Wprowadz poprawne miejsce zamieszania</div>
 
-                <input id="kod" class="form-control" placeholder="Kod pocztowy" type="text" onblur="sprawdz('kod', kod_pocztowy)" title="Wymagany format xx-xxx" pattern="^[0-9]{2}-[0-9]{3}$" required>
-                <div class="valid-feedback"> Dobrze! </div>
-                <div class="invalid-feedback"> Wprowadz poprawny adres (xx-xxx) </div>
+                </fieldset>
 
-            </fieldset>
+                <fieldset>
 
-            <fieldset>
+                    <input id="kod" class="form-control" placeholder="Kod pocztowy" type="text"
+                           onblur="sprawdz('kod', kod_pocztowy)" title="Wymagany format xx-xxx"
+                           pattern="^[0-9]{2}-[0-9]{3}$" required>
+                    <div class="valid-feedback"> Dobrze!</div>
+                    <div class="invalid-feedback"> Wprowadz poprawny adres (xx-xxx)</div>
 
-                <select id="wojewodztwo" class="form-control" onblur="sprawdzSelect()">
-                    <option>Wybierz województwo</option>
-                    <option>dolnośląskie</option>
-                    <option>kujawsko-pomorskie</option>
-                    <option>lubelskie</option>
-                    <option>lubuskie</option>
-                    <option>łódzkie</option>
-                    <option>małopolskie</option>
-                    <option>mazowieckie</option>
-                    <option>opolskie</option>
-                    <option>podkarpackie</option>
-                    <option>podlaskie</option>
-                    <option>pomorskie</option>
-                    <option>śląskie</option>
-                    <option>świętokrzyskie</option>
-                    <option>warmińsko-mazurskie</option>
-                    <option>wielkopolskie</option>
-                    <option>zachodniopomorskie</option>
-                </select>
-                <div class="valid-feedback"> Dobrze! </div>
-                <div class="invalid-feedback"> Wybierz województwo </div>
+                </fieldset>
 
-            </fieldset>
+                <fieldset>
 
-            <fieldset>
+                    <select id="wojewodztwo" class="form-control" onblur="sprawdzSelect()">
+                        <option>Wybierz województwo</option>
+                        <option>dolnośląskie</option>
+                        <option>kujawsko-pomorskie</option>
+                        <option>lubelskie</option>
+                        <option>lubuskie</option>
+                        <option>łódzkie</option>
+                        <option>małopolskie</option>
+                        <option>mazowieckie</option>
+                        <option>opolskie</option>
+                        <option>podkarpackie</option>
+                        <option>podlaskie</option>
+                        <option>pomorskie</option>
+                        <option>śląskie</option>
+                        <option>świętokrzyskie</option>
+                        <option>warmińsko-mazurskie</option>
+                        <option>wielkopolskie</option>
+                        <option>zachodniopomorskie</option>
+                    </select>
+                    <div class="valid-feedback"> Dobrze!</div>
+                    <div class="invalid-feedback"> Wybierz województwo</div>
 
-                <textarea placeholder="Wiadomosc dodatkowa.... (opcjonalne)"  ></textarea>
-                <div class="valid-feedback"> Dobrze! </div>
-                <div class="invalid-feedback"> Wprowadz prawdziwe imie </div>
+                </fieldset>
 
-            </fieldset>
+                <fieldset>
+
+                    <textarea id="textfield" placeholder="Wiadomosc dodatkowa.... (opcjonalne)"></textarea>
+                    <div class="valid-feedback"> Dobrze!</div>
+                    <div class="invalid-feedback"> Wprowadz prawdziwe imie</div>
+
+                </fieldset>
 
 
-            <fieldset>
+                <fieldset>
 
-                <button name="submit" type="submit" id="wyslij" >Wyslij</button>
+                    <button name="submit" type="submit" id="wyslij" onclick="zapisz()">Wyslij</button>
 
-                <div id="przyciski">
-                    <button name="submit" type="submit" id="pokaz" >Pokaż</button>
-                    <button name="submit" type="submit" id="wyczysc" >Wyczyść</button>
-                </div>
+                </fieldset>
 
-            </fieldset>
+            </form>
+
+            <div id="przyciski">
+                <button id="pokaz" onclick="pokaz()">Pokaż</button>
+                <button id="wyczysc" onclick="wyczysc()">Wyczyść</button>
+            </div>
 
             <footer>
                 &copy; Strona stworzona przez Jakuba Kaliszuka. Wszystkie prawa zastrzeżone.
             </footer>
 
-        </form>
+        </div>
     </section>
 
 </main>
@@ -132,7 +146,7 @@
 
 <script src="assets/scripts/formularze.js"></script>
 <script src="assets/scripts/parallax.js"></script>
-
+<script src="assets/scripts/localStorage.js"></script>
 
 
 </body>
