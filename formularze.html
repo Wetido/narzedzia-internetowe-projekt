@@ -25,7 +25,7 @@
 
             <fieldset>
 
-                <input id="imie" class="form-control" placeholder="Imie" type="text" required onblur="sprawdz('imie', nazwa)" autofocus pattern="[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}">
+                <input id="imie" class="form-control" placeholder="Imie" type="text" required onblur="sprawdz('imie', nazwa)" autofocus pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}$">
                 <div class="valid-feedback"> Dobrze! </div>
                 <div class="invalid-feedback"> Wprowadz poprawne imie </div>
 
@@ -33,7 +33,7 @@
 
             <fieldset>
 
-                <input id="nazwisko" class="form-control" placeholder="Nazwisko" type="text" onblur="sprawdz('nazwisko', nazwa)" required  pattern="[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,15}">
+                <input id="nazwisko" class="form-control" placeholder="Nazwisko" type="text" onblur="sprawdz('nazwisko', nazwa)" required  pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}$">
                 <div class="valid-feedback"> Dobrze! </div>
                 <div class="invalid-feedback"> Wprowadz poprawne nazwisko </div>
 
@@ -48,7 +48,7 @@
             </fieldset>
             <fieldset>
 
-                <input id="tel" class="form-control" placeholder="Podaj nr. telefonu" onblur="sprawdz('tel', telefon)" required>
+                <input id="tel" class="form-control" placeholder="Podaj nr. telefonu" onblur="sprawdz('tel', telefon)" title="Numer powinien posiadać 9-10 cyfr" pattern="^[1-9]{1,1}[0-9]{2,10}$" required>
                 <div class="valid-feedback"> Dobrze! </div>
                 <div class="invalid-feedback"> Wprowadz poprawny numer telefonu </div>
 
@@ -56,7 +56,7 @@
 
             <fieldset>
 
-                <input id="miasto" class="form-control" placeholder="Miejsce zamieszkania" type="text" onblur="sprawdz('miasto', miejsce)" pattern="[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}" required>
+                <input id="miasto" class="form-control" placeholder="Miejsce zamieszkania" type="text" onblur="sprawdz('miasto', miejsce)" pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ -]{3,30}$" required>
                 <div class="valid-feedback"> Dobrze! </div>
                 <div class="invalid-feedback"> Wprowadz poprawne miejsce zamieszania </div>
 
@@ -64,7 +64,7 @@
 
             <fieldset>
 
-                <input id="kod" class="form-control" placeholder="Kod pocztowy" type="text" onblur="sprawdz('kod', kod_pocztowy)" pattern="[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]{3,12}" required>
+                <input id="kod" class="form-control" placeholder="Kod pocztowy" type="text" onblur="sprawdz('kod', kod_pocztowy)" title="Wymagany format xx-xxx" pattern="^[0-9]{2}-[0-9]{3}$" required>
                 <div class="valid-feedback"> Dobrze! </div>
                 <div class="invalid-feedback"> Wprowadz poprawny adres (xx-xxx) </div>
 
@@ -107,7 +107,12 @@
 
             <fieldset>
 
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                <button name="submit" type="submit" id="wyslij" >Wyslij</button>
+
+                <div id="przyciski">
+                    <button name="submit" type="submit" id="pokaz" >Pokaż</button>
+                    <button name="submit" type="submit" id="wyczysc" >Wyczyść</button>
+                </div>
 
             </fieldset>
 

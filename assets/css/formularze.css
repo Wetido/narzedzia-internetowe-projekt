@@ -51,7 +51,8 @@ fieldset {
 
 
 #kontakt textarea,
-#kontakt input{
+#kontakt input,
+#kontakt select{
     width: 100%;
     border: 1px solid #ccc;
     background: #FFF;
@@ -61,31 +62,69 @@ fieldset {
 
 
 #kontakt input:hover,
-#kontakt textarea:hover{
+#kontakt textarea:hover,
+#kontakt select:hover{
 
     transition: border-color 0.3s ease-in-out;
     border: 1.5px solid #aaa;
 }
 
 #kontakt textarea {
-    margin-top: 10px;
+
+    margin: 0px;
     height: 100px;
     max-width: 100%;
     resize: none;
 }
 
-#kontakt button[type="submit"] {
-    cursor: pointer;
+#wyslij {
+
     width: 100%;
     border: none;
     background: #4CAF50;
     color: #FFF;
-    margin: 0 0 5px;
+    margin: 0 0 3px;
     padding: 10px;
     font-size: 15px;
 }
 
-#kontakt button[type="submit"]:hover {
+#przyciski {
+
+    margin-top: 7px;
+    display: flex;
+}
+
+#pokaz {
+
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background: #4CAF50;
+    color: #FFF;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+#wyczysc {
+
+    border: none;
+    padding: 10px;
+    background: #FF1111;
+    color: #FFF;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#wyczysc:hover {
+
+    background: linear-gradient( 45deg, #DD0000 , #FF2222);
+
+    transition: background-color 0.7s ease-in-out;
+}
+
+#wyslij:hover,
+#pokaz:hover{
 
     background: linear-gradient( 45deg, #43A047 , #54B158);
 
