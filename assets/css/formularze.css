@@ -77,7 +77,7 @@ fieldset {
     resize: none;
 }
 
-#wyslij {
+#zapisz {
 
     width: 100%;
     border: none;
@@ -90,7 +90,7 @@ fieldset {
 
 #przyciski {
 
-    margin-top: 7px;
+    margin-top:12px;
     display: flex;
 }
 
@@ -130,4 +130,47 @@ fieldset {
 
     transition: background-color 0.7s ease-in-out;
 }
+
+#localStorage {
+
+    display: flex;
+}
+
+#lewy {
+
+
+    width: 100%;
+    display: flex;
+}
+
+#lewy > button {
+
+    margin-right: 5px;
+}
+
+#prawy {
+
+
+    width: 100%;
+    display: flex;
+}
+
+#prawy > button {
+
+    margin-left: 5px;
+}
+
+#localStorage button {
+
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background: #4CAF50;
+    color: #FFF;
+
+
+    font-size: 15px;
+}
+
+
 

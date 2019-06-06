@@ -119,14 +119,30 @@
 
                 <fieldset>
 
-                    <button name="submit" type="submit" id="wyslij" onclick="zapisz()">Wyslij</button>
+                    <button id="zapisz" name="submit" type="submit" onclick="zapisz1()">Wyslij</button>
 
                 </fieldset>
 
             </form>
 
+            <div id="localStorage">
+
+                <div id="lewy">
+                    <button onclick="menu1()">1</button>
+                    <button onclick="menu2()">2</button>
+                    <button onclick="menu3()">3</button>
+                </div>
+
+                <div id="prawy">
+                    <button onclick="menu4()">4</button>
+                    <button onclick="menu5()">5</button>
+                    <button onclick="menu6()">6</button>
+                </div>
+
+            </div>
+
             <div id="przyciski">
-                <button id="pokaz" onclick="pokaz()">Pokaż</button>
+                <button id="pokaz" onclick="pokaz1()">Pokaż</button>
                 <button id="wyczysc" onclick="wyczysc()">Wyczyść</button>
             </div>
 

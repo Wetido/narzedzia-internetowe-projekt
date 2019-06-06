@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1652c923-e135-4b40-888a-90b5d4f3080f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/formularze.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formularze.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/localStorage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3468">
+              <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scripts/formularze.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ł</find>
+      <find>upp</find>
+      <find>.zdjecie</find>
+      <find>body</find>
+      <find>pierwszy</find>
+      <find>resizeDuration</find>
+      <find>script</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/html/Index.css" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/Index.css" />
+        <option value="$PROJECT_DIR$/assets/scripts/script.js" />
+        <option value="$PROJECT_DIR$/galeria.html" />
+        <option value="$PROJECT_DIR$/assets/scripts/lightbox-plus-jquery.js" />
+        <option value="$PROJECT_DIR$/assets/css/lightbox.css" />
+        <option value="$PROJECT_DIR$/assets/css/galeria.css" />
+        <option value="$PROJECT_DIR$/assets/scripts/galeria.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/przesuwanie.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/parallax.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/animacja.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/formularze.js" />
+        <option value="$PROJECT_DIR$/assets/scripts/localStorage.js" />
+        <option value="$PROJECT_DIR$/assets/css/formularze.css" />
+        <option value="$PROJECT_DIR$/assets/css/index.css" />
+        <option value="$PROJECT_DIR$/formularze.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="98" />
+    <option name="y" value="31" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StronaSchody" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaSchody" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StronaSchody" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaSchody" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StronaSchody" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaSchody" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StronaSchody" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaSchody" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StronaSchody" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaSchody" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StronaSchody" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StronaSchody" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jakub\Desktop\ProjektNaZaliczenie\StronaSchody\assets" />
+      <recent name="C:\Users\Jakub\Desktop\ProjektNaZaliczenie\StronaSchody\assets\css" />
+      <recent name="C:\Users\Jakub\Desktop\ProjektNaZaliczenie\StronaSchody" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jakub\Desktop\ProjektNaZaliczenie\StronaSchody\assets\scripts" />
+      <recent name="C:\Users\Jakub\Desktop\ProjektNaZaliczenie\StronaSchody\assets\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1652c923-e135-4b40-888a-90b5d4f3080f" name="Default Changelist" comment="" />
+      <created>1555943330517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555943330517</updated>
+      <workItem from="1555943331818" duration="3598000" />
+      <workItem from="1556024909457" duration="12584000" />
+      <workItem from="1556044746665" duration="4859000" />
+      <workItem from="1556049739999" duration="9570000" />
+      <workItem from="1556060256519" duration="56000" />
+      <workItem from="1556099897100" duration="224000" />
+      <workItem from="1556446435009" duration="1079000" />
+      <workItem from="1556450472418" duration="1548000" />
+      <workItem from="1556453764078" duration="6000" />
+      <workItem from="1556557590768" duration="6000" />
+      <workItem from="1556628419852" duration="2989000" />
+      <workItem from="1556631460590" duration="3006000" />
+      <workItem from="1556642472449" duration="3933000" />
+      <workItem from="1556646441779" duration="230000" />
+      <workItem from="1556727518719" duration="30000" />
+      <workItem from="1556882986540" duration="1389000" />
+      <workItem from="1557246211151" duration="8985000" />
+      <workItem from="1557396407073" duration="6690000" />
+      <workItem from="1557429590573" duration="617000" />
+      <workItem from="1557431007739" duration="4670000" />
+      <workItem from="1557912538614" duration="169000" />
+      <workItem from="1558515700648" duration="4108000" />
+      <workItem from="1558631991394" duration="150000" />
+      <workItem from="1558791711923" duration="599000" />
+      <workItem from="1559141758923" duration="13341000" />
+      <workItem from="1559217131216" duration="14349000" />
+      <workItem from="1559233987742" duration="181000" />
+      <workItem from="1559234298828" duration="19000" />
+      <workItem from="1559242843931" duration="519000" />
+    </task>
+    <task id="LOCAL-00001" summary="Drobne poprawki drugiej sekcji">
+      <created>1556037492787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556037492787</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Dodanie informacj i zdj">
+      <created>1556049520514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556049520514</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dodanie informacj i zdj">
+      <created>1556049541673</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556049541673</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Dodanie informacj i zdj">
+      <created>1556049613109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556049613109</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lorem ipsum">
+      <created>1556060300988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556060300988</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Dodanie galerii">
+      <created>1556635899924</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556635899924</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Aktualizacja galerii">
+      <created>1556646321091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556646321092</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Aktualizacja galerii">
+      <created>1557398147815</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557398147815</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Drobne poprawki i dodanie strony z formularzami">
+      <created>1557399470936</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557399470936</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Zmiana koncepcji projektu. Dodanie animacji.">
+      <created>1557433847549</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557433847549</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Poprawki niedziałajacych hover effect i galerii">
+      <created>1557434416253</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557434416253</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Dodanie formularza">
+      <created>1558519753904</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558519753904</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Dodanie pól formularza dodanie paternów i walidacji">
+      <created>1559154846966</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559154846966</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Poprawa kilku błędów w formularzach">
+      <created>1559224341046</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559224341046</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Dodanie localStorage poprawa responsywnosci">
+      <created>1559232856110</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559232856110</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Poprawienie form action">
+      <created>1559233103778</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559233103778</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1">
+      <created>1559233252072</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559233252072</updated>
+    </task>
+    <task id="LOCAL-00018" summary="2">
+      <created>1559234152394</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559234152394</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="99504000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.067294754" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Drobne poprawki drugiej sekcji" />
+    <MESSAGE value="Dodanie informacj i zdj" />
+    <MESSAGE value="Lorem ipsum" />
+    <MESSAGE value="Dodanie galerii" />
+    <MESSAGE value="Aktualizacja galerii" />
+    <MESSAGE value="Drobne poprawki i dodanie strony z formularzami" />
+    <MESSAGE value="Zmiana koncepcji projektu. Dodanie animacji." />
+    <MESSAGE value="Poprawki niedziałajacych hover effect i galerii" />
+    <MESSAGE value="Dodanie formularza" />
+    <MESSAGE value="Dodanie pól formularza dodanie paternów i walidacji" />
+    <MESSAGE value="Poprawa kilku błędów w formularzach" />
+    <MESSAGE value="Dodanie localStorage poprawa responsywnosci" />
+    <MESSAGE value="Poprawienie form action" />
+    <MESSAGE value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+    <entry file="file://$PROJECT_DIR$/img/bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/i1.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/s2.jpg" />
+    <entry file="file://$PROJECT_DIR$/img/s1.jpg" />
+    <entry file="file://$PROJECT_DIR$/assets/scripts/lightbox.js" />
+    <entry file="file://$PROJECT_DIR$/assets/css/lightbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/przesuwanie.js" />
+    <entry file="file://$PROJECT_DIR$/assets/scripts/galeria.js" />
+    <entry file="file://$PROJECT_DIR$/assets/scripts/parallax.min.js" />
+    <entry file="file://$PROJECT_DIR$/assets/scripts/lightbox-plus-jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="10305" column="21" selection-start-line="10305" selection-start-column="21" selection-end-line="10305" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/parallax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2142">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/photo-1515002246390-7bf7e8f87b54.jpg" />
+    <entry file="file://$PROJECT_DIR$/assets/scripts/check.js" />
+    <entry file="file://$PROJECT_DIR$/img/background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/animacja.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/formularze.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formularze.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/localStorage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3468">
+          <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/formularze.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
