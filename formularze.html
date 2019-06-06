@@ -76,7 +76,7 @@
 
                     <input id="kod" class="form-control" placeholder="Kod pocztowy" type="text"
                            onblur="sprawdz('kod', kod_pocztowy)" title="Wymagany format xx-xxx"
-                           pattern="^[0-9]{2}-[0-9]{3}$" required>
+                           pattern="^[1-9]{1,1}[0-9]{8,10}$;" required>
                     <div class="valid-feedback"> Dobrze!</div>
                     <div class="invalid-feedback"> Wprowadz poprawny adres (xx-xxx)</div>
 
